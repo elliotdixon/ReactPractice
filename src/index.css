@@ -1,10 +1,16 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Space Mono', monospace;
+  color:white;
+  font-weight:bold;
+  animation: myanimation 45s infinite;
+  text-align: center;
+}
+@keyframes myanimation {
+  0% {background-color: #FF4500;}
+  25%{background-color: #FFA500}
+  50%{background-color:  #ff6600;}
+  75%{background-color:#FF4500;}
+  100% {background-color: #FFA500;}
 }
 
 code {
