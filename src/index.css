@@ -6,11 +6,11 @@ body {
   text-align: center;
 }
 @keyframes myanimation {
-  0% {background-color: #FF4500;}
-  25%{background-color: #FFA500}
+  0% {background-color: #ff6600;}
+  25%{background-color: #FFA500;}
   50%{background-color:  #ff6600;}
-  75%{background-color:#FF4500;}
-  100% {background-color: #FFA500;}
+  75%{background-color:#FFA500;}
+  100% {background-color: #ff6600;}
 }
 
 code {
